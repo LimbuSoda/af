@@ -9,8 +9,8 @@ uvloop.install()
 APP_ID = config("APP_ID", default=None, cast=int)
 API_HASH = config("API_HASH", default=None)
 SESSION = config("SESSION")
-FROM = [-1001511276789]
-TO = [-1001249849547, -1001304469351]
+FROM = [-1002803064847]
+TO = [-1002760467801]
 
 try:
     BotzHubUser = Client(name=SESSION, api_id=APP_ID, api_hash=API_HASH, session_string=SESSION)
