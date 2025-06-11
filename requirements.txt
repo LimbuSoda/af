@@ -1,4 +1,5 @@
 pyrotgfork[fast]
+tgcrypto
 uvloop
 python-decouple
 Flask
